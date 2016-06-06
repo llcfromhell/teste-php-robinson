@@ -5,7 +5,7 @@ $('#filtroForm').submit(function(event) {
     $.ajax({
         
         method: "POST",
-        url: "https://teste-php-llcfromhell.c9users.io/filtro.php",
+        url: "https://teste-robinson-llcfromhell.c9users.io/filtro.php",
         dataType: "html",
         data: formData, 
         success: function(result) {
